@@ -20,21 +20,24 @@ a:hover {
 
 a.logo{
   background:url(logo1.png) no-repeat left top;
-  display:block;
+  display: inline-block;
   height:50px;
   left:0px;
-  position:absolute;
+  /*position:absolute;*/
   top:25px;
   width:204px;
+  margin-top: 10px;
 }
 
 h1{
   /*font:normal normal 700 2em/2.1em 'sans-serif';*/
   font: normal 35px/38px 'Crimson Text';
   /*font:font-style | font-variant | font-weight | font-size | line-height | font-family*/
-  margin:0.67em 0;
+  /*margin:auto 0;*/
   padding:0;
   color: #b2bb35;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 h2 {
@@ -102,12 +105,16 @@ button:hover {
 
 #epContent{
   clear:both;
-  float:left;
-  width:960px;
+  width: 70%;
+  margin: auto;
 }
 
 #epEmergency{
   clear:both;
+  margin: auto;
+  width: 70%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #epFooter{
@@ -126,9 +133,15 @@ button:hover {
   display:none;
 }
 
-#epHeader{
+#epHeader {
   height:100px;
   position:relative;
+  border-bottom: solid #d9d9d9 25px;
+}
+
+#epSubHeader {
+  width: 70%;
+  margin: auto;
 }
 
 #epNav{
