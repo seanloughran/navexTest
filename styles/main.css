@@ -3,7 +3,7 @@ body{
   margin:0;
 }
 
-a{
+a {
   color:#0000ff;
   outline:none;
   text-decoration:underline;
@@ -104,7 +104,7 @@ button:hover {
 
 #epColumn2{
   float:right;
-  width:300px;
+  width:31%;
   background-color: #b2bb35;
   color: #ffffff;
   border-radius: 8px;
@@ -253,6 +253,14 @@ button:hover {
 .bottom{
   margin-bottom:0;
   padding-bottom:0;
+}
+
+.footerLinkR {
+  margin-right: 3px;
+}
+
+.footerLinkL {
+  margin-left: 3px;
 }
 
 .listor{
