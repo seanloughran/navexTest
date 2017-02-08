@@ -131,6 +131,10 @@ button:hover {
   width: 70%;
 }
 
+#epFooter a {
+  color: #b2bb35
+}
+
 #epFooter .line1{
   float:left;
 }
