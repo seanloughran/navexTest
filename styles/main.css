@@ -1,12 +1,12 @@
 body{
-font:normal normal 400 12px/15px sans-serif;
-margin:0;
+  font:normal normal 400 12px/15px sans-serif;
+  margin:0;
 }
 
 a{
-color:#0000ff;
-outline:none;
-text-decoration:underline;
+  color:#0000ff;
+  outline:none;
+  text-decoration:underline;
 }
 
 a:link {
@@ -19,13 +19,13 @@ a:hover {
 }
 
 a.logo{
-background:url(logo1.png) no-repeat left top;
-display:block;
-height:50px;
-left:0px;
-position:absolute;
-top:25px;
-width:204px;
+  background:url(logo1.png) no-repeat left top;
+  display:block;
+  height:50px;
+  left:0px;
+  position:absolute;
+  top:25px;
+  width:204px;
 }
 
 h1{
@@ -57,23 +57,14 @@ img{
 }
 
 ol,ul{
-margin:1em 0;
-padding:0 0 0 1.25em;
+  margin:1em 0;
+  padding:0 0 0 1.25em;
 }
 
 p{
-margin:1em 0;
-padding:0;
+  margin:1em 0;
+  padding:0;
 }
-
-/*•	Background Color: #9A9A9A
-•	Color: #ffffff
-•	Font Family: Helvetica
-•	Font Size: 15px
-•	Font Wight: Bold
-•	Rounded Corners:  8px radius
-•	Transition: background-color 0.2s ease 0s*/
-
 
 button {
   background-color: #9A9A9A;
@@ -82,158 +73,171 @@ button {
   font-size: 15px;
   font-weight: Bold;
   border-radius: 8px;
-  /*Transition: background-color 0.2s ease 0s*/
+  transition: background-color 0.2s ease 0s;
+}
+
+button:hover {
+  background-color: #424143;
 }
 
 #epAttention{
-position:relative;
+  position:relative;
 }
 
 #epColumn1{
-margin-right:330px;
+  margin-right:330px;
 }
 
 #epColumn2{
-float:right;
-width:300px;
+  float:right;
+  width:300px;
+  background-color: #b2bb35;
+  color: #ffffff;
+  border-radius: 8px;
 }
 
 #epContent{
-clear:both;
-float:left;
-width:960px;
+  clear:both;
+  float:left;
+  width:960px;
 }
 
 #epEmergency{
-clear:both;
+  clear:both;
 }
 
 #epFooter{
-clear:both;
+  clear:both;
 }
 
 #epFooter .line1{
-float:left;
+  float:left;
 }
 
 #epFooter .line2{
-float:right;
+  float:right;
 }
 
 #epFooter th{
-display:none;
+  display:none;
 }
 
 #epHeader{
-height:100px;
-position:relative;
+  height:100px;
+  position:relative;
 }
 
 #epNav{
-float:right;
-font:normal normal 400 12px/25px sans-serif;
-position:relative;
-right:0px;
-top:25px;
+  float:right;
+  font:normal normal 400 12px/25px sans-serif;
+  position:relative;
+  right:0px;
+  top:25px;
 }
 
 #epNav a{
-display:block;
-float:left;
-padding:0 20px;
+  display:block;
+  float:left;
+  padding:0 20px;
 }
 
-#epNav a:hover{
+#epNav a:link {
+  color: #424143;
+  font: normal 16px/26px 'Helvetica';
+}
+
+#epNav a:hover {
+  color: #b2bb35;
 }
 
 #epWrapper{
-float:left;
-left:50%;
-margin-left:-480px;
-position:relative;
-width:960px;
+  float:left;
+  left:50%;
+  margin-left:-480px;
+  position:relative;
+  width:960px;
 }
 
 /*dp2*/
 
 #epDataPrivacy .online,#epDataPrivacy .phone,#epDataPrivacy .output{
-display:none;
+  display:none;
 }
 
 #epDataPrivacy ol.dropDowns{
-list-style:none;
-margin:0;
-padding:0;
+  list-style:none;
+  margin:0;
+  padding:0;
 }
 
 #epDataPrivacy select{
-font:normal normal 400 12px/15px sans-serif;
-margin:0 0 1em 0;
-width:50%;
+  font:normal normal 400 12px/15px sans-serif;
+  margin:0 0 1em 0;
+  width:50%;
 }
 
 /*phone*/
 
 #epPhone select{
-font:normal normal 400 12px/15px sans-serif;
-margin:0 0 1em 0;
-width:50%;
+  font:normal normal 400 12px/15px sans-serif;
+  margin:0 0 1em 0;
+  width:50%;
 }
 
 /*Issues*/
 
 #epIssues{
-width:100%;
+  width:100%;
 }
 
 #epIssues .catdesc{
-display:none;
+  display:none;
 }
 
 #epIssues .catname{
-font:normal normal 700 16px/20px sans-serif;
+  font:normal normal 700 16px/20px sans-serif;
 }
 
 #epIssues .details{
-font:normal normal 400 12px/20px sans-serif;
-position:absolute;
-right:0;
-top:0;
+  font:normal normal 400 12px/20px sans-serif;
+  position:absolute;
+  right:0;
+  top:0;
 }
 
 #epIssues .issue{
-color:#0000ff;
-margin:10px 0;
-position:relative;
+  color:#0000ff;
+  margin:10px 0;
+  position:relative;
 }
 
 #epIssues .issue:hover{
-color:#008000;
+  color:#008000;
 }
 
 #epIssues .name{
-font:normal normal 700 14px/20px sans-serif;
+  font:normal normal 700 14px/20px sans-serif;
 }
 
 #epIssues .desc{
-padding:1em 0 0 0;
+  padding:1em 0 0 0;
 }
 
 .bottom{
-margin-bottom:0;
-padding-bottom:0;
+  margin-bottom:0;
+  padding-bottom:0;
 }
 
 .listor{
-list-style:none;
-margin:1em 0;
+  list-style:none;
+  margin:1em 0;
 }
 
 .nowrap{
-white-space:nowrap;
+  white-space:nowrap;
 }
 
 .top{
-margin-top:0;
-padding-top:0;
+  margin-top:0;
+  padding-top:0;
 }
