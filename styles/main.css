@@ -1,0 +1,239 @@
+body{
+font:normal normal 400 12px/15px sans-serif;
+margin:0;
+}
+
+a{
+color:#0000ff;
+outline:none;
+text-decoration:underline;
+}
+
+a:link {
+  color: #b2bb35;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.logo{
+background:url(logo1.png) no-repeat left top;
+display:block;
+height:50px;
+left:0px;
+position:absolute;
+top:25px;
+width:204px;
+}
+
+h1{
+  /*font:normal normal 700 2em/2.1em 'sans-serif';*/
+  font: normal 35px/38px 'Crimson Text';
+  /*font:font-style | font-variant | font-weight | font-size | line-height | font-family*/
+  margin:0.67em 0;
+  padding:0;
+  color: #b2bb35;
+}
+
+h2 {
+  font: Bold 20px/26px 'Helvetica';
+  /*font:font-style | font-variant | font-weight | font-size | line-height | font-family*/
+  margin:0.83em 0;
+  padding:0;
+}
+
+h3{
+  font: Bold 16px/26px 'Helvetica';
+  /*font:font-style | font-variant | font-weight | font-size | line-height | font-family*/
+  margin:1em 0;
+  padding:0;
+}
+
+img{
+  border:0;
+  display:block;
+}
+
+ol,ul{
+margin:1em 0;
+padding:0 0 0 1.25em;
+}
+
+p{
+margin:1em 0;
+padding:0;
+}
+
+/*•	Background Color: #9A9A9A
+•	Color: #ffffff
+•	Font Family: Helvetica
+•	Font Size: 15px
+•	Font Wight: Bold
+•	Rounded Corners:  8px radius
+•	Transition: background-color 0.2s ease 0s*/
+
+
+button {
+  background-color: #9A9A9A;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: Bold;
+  border-radius: 8px;
+  /*Transition: background-color 0.2s ease 0s*/
+}
+
+#epAttention{
+position:relative;
+}
+
+#epColumn1{
+margin-right:330px;
+}
+
+#epColumn2{
+float:right;
+width:300px;
+}
+
+#epContent{
+clear:both;
+float:left;
+width:960px;
+}
+
+#epEmergency{
+clear:both;
+}
+
+#epFooter{
+clear:both;
+}
+
+#epFooter .line1{
+float:left;
+}
+
+#epFooter .line2{
+float:right;
+}
+
+#epFooter th{
+display:none;
+}
+
+#epHeader{
+height:100px;
+position:relative;
+}
+
+#epNav{
+float:right;
+font:normal normal 400 12px/25px sans-serif;
+position:relative;
+right:0px;
+top:25px;
+}
+
+#epNav a{
+display:block;
+float:left;
+padding:0 20px;
+}
+
+#epNav a:hover{
+}
+
+#epWrapper{
+float:left;
+left:50%;
+margin-left:-480px;
+position:relative;
+width:960px;
+}
+
+/*dp2*/
+
+#epDataPrivacy .online,#epDataPrivacy .phone,#epDataPrivacy .output{
+display:none;
+}
+
+#epDataPrivacy ol.dropDowns{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#epDataPrivacy select{
+font:normal normal 400 12px/15px sans-serif;
+margin:0 0 1em 0;
+width:50%;
+}
+
+/*phone*/
+
+#epPhone select{
+font:normal normal 400 12px/15px sans-serif;
+margin:0 0 1em 0;
+width:50%;
+}
+
+/*Issues*/
+
+#epIssues{
+width:100%;
+}
+
+#epIssues .catdesc{
+display:none;
+}
+
+#epIssues .catname{
+font:normal normal 700 16px/20px sans-serif;
+}
+
+#epIssues .details{
+font:normal normal 400 12px/20px sans-serif;
+position:absolute;
+right:0;
+top:0;
+}
+
+#epIssues .issue{
+color:#0000ff;
+margin:10px 0;
+position:relative;
+}
+
+#epIssues .issue:hover{
+color:#008000;
+}
+
+#epIssues .name{
+font:normal normal 700 14px/20px sans-serif;
+}
+
+#epIssues .desc{
+padding:1em 0 0 0;
+}
+
+.bottom{
+margin-bottom:0;
+padding-bottom:0;
+}
+
+.listor{
+list-style:none;
+margin:1em 0;
+}
+
+.nowrap{
+white-space:nowrap;
+}
+
+.top{
+margin-top:0;
+padding-top:0;
+}
