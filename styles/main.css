@@ -81,7 +81,11 @@ button:hover {
 }
 
 #epAttention{
+  width: 100%;
   position:relative;
+  text-align: center;
+  color:#d9d9d9;
+  border-bottom: solid #d9d9d9 1px;
 }
 
 #epColumn1{
@@ -152,10 +156,10 @@ button:hover {
 
 #epWrapper{
   float:left;
-  left:50%;
-  margin-left:-480px;
+  /*left:50%;
+  margin-left:-480px;*/
   position:relative;
-  width:960px;
+  width: 100%;
 }
 
 /*dp2*/
